@@ -3,6 +3,7 @@ import './App.css';
 import Person from "./Components/props"
 import Product from "./Components/products"
 import Count from "./Components/count"
+import Users from './Components/users';
 
 function App() {
   const products = [
@@ -20,6 +21,7 @@ function App() {
         <p>My first react Paragraph</p>
       </header>
       <Count></Count>
+      <Users></Users>
       <Person name = "Hossen" profession ="Creator"></Person>
       <Person name ="Mosharof" profession = "Business"></Person>
       <Person name = "Musa" profession = "Founder of Space BD"></Person>
