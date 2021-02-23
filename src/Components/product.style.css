@@ -1,0 +1,23 @@
+.container{
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color:rgb(228, 53, 53);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button{
+    background-color: rgb(69, 69, 228);
+    color: white;
+    padding:  5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
